@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".dodajwniosek"
+    tools:showIn="@layout/activity_dodajwniosek">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:text="Imię i nazwisko"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="22dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:text="Stanowisko"
+            android:textColor="@android:color/holo_orange_dark"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="79dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:text="Rodzaj wniosku"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_orange_dark"
+             />
+
+        <EditText
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:hint="Urlop od"
+            android:onClick="tx8"
+            android:padding="10dp"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/textView9"
+            style="@style/Widget.AppCompat.AutoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Urlop do"
+            android:onClick="tx9"
+            android:padding="10dp"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text="  Ilość dni"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <EditText
+            android:id="@+id/eod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="10dp"
+            android:text="Zastępstwo"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <Spinner
+            android:id="@+id/spinner2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/holo_orange_dark"
+            />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="396dp"
+            android:layout_height="199dp"
+            android:ems="10"
+            android:hint="Komentarz"
+            android:inputType="textPersonName"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/Wyślij"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wyślij"
+            android:onClick="save"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

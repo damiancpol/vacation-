@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.retrofit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icona"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icona"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".konfAdmin"
+            android:label="@string/title_activity_konf_admin"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".test"
+            android:label="@string/title_activity_test"
+            android:parentActivityName=".zalogowany"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.retrofit.zalogowany" />
+        </activity>
+        <activity
+            android:name=".RecyclerViewAdapter"
+            android:label="@string/title_activity_recycler_view_adapter"
+            android:parentActivityName=".zalogowany"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.retrofit.zalogowany" />
+        </activity>
+        <activity
+            android:name=".konfiguracja"
+            android:label="@string/title_activity_konfiguracja"
+            android:parentActivityName=".zalogowany"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.retrofit.zalogowany" />
+        </activity>
+        <activity
+            android:name=".Allurlop"
+            android:label="@string/title_activity_allurlop"
+            android:parentActivityName=".zalogowany"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.retrofit.zalogowany" />
+        </activity>
+        <activity
+            android:name=".dodajwniosek"
+            android:label="@string/title_activity_dodajwniosek"
+            android:parentActivityName=".zalogowany"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.retrofit.zalogowany" />
+        </activity>
+        <activity
+            android:name=".zalogowany"
+            android:label="@string/title_activity_zalogowany"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.retrofit.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

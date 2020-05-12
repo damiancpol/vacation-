@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".konfiguracja"
+    tools:showIn="@layout/activity_konf_admin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/l"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:ems="10"
+            android:fontFamily="sans-serif-black"
+            android:inputType="textPersonName"
+            android:text="Imie :"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/imie1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@null"
+            android:ems="10"
+            android:hint="Imie"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:fontFamily="sans-serif-black"
+            android:text="Nazwisko :"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/nazwisko1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@null"
+            android:ems="10"
+            android:hint="Nazwisko"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/textView123"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:fontFamily="sans-serif-black"
+            android:text="Stanowisko :"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/stanowisko1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@null"
+            android:ems="10"
+            android:hint="Stanowisko"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textAlignment="viewStart"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/textView132"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:fontFamily="sans-serif-black"
+            android:text="Login :"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/log1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@null"
+            android:ems="10"
+            android:hint="Login"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textAlignment="textStart"
+            android:textSize="14sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/textView1242"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:fontFamily="sans-serif-black"
+            android:text="Hasło :"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/has1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:hint="Hasło"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:layout_weight="50"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/textView1245"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:fontFamily="sans-serif-black"
+            android:text="Email :"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/email1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="50"
+            android:background="@null"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textAlignment="viewStart"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/texttt"
+            android:layout_width="89dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="17"
+            android:fontFamily="sans-serif-black"
+            android:text="Zastępstwo :"
+            android:textSize="18sp" />
+
+        <Spinner
+            android:id="@+id/sp5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="83"
+            android:background="@null"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:padding="20dp"
+            android:textAlignment="viewStart"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="updateuser"
+        android:text="Zmień " />
+
+
+</LinearLayout>
